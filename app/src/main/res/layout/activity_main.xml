@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D1D1D1"
     tools:context=".MainActivity">
 
     <TableLayout
@@ -287,19 +288,19 @@
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/equalsBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/circle"
-                android:backgroundTint="#43A047"
+                android:background="@drawable/hijau"
                 android:onClick="equalsBTN"
                 android:text="@string/equals"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                app:srcCompat="@drawable/equares"/>
 
         </TableRow>
     </TableLayout>
@@ -310,9 +311,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:autofillHints="false"
+        android:background="#D1D1D1"
         android:inputType="none"
         android:text="@string/dislay"
         android:textAlignment="textEnd"
+        android:textColor="#000000"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -327,11 +330,12 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/backspace"
         android:onClick="backspaceBTN"
-        android:background="@drawable/circle"
+        android:background="@drawable/merah"
         android:layout_margin="5dp"
         app:srcCompat="@drawable/backspave"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
