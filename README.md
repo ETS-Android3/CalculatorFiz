@@ -1,10 +1,8 @@
 # Calculator Fiz
 
-Calculator is a simple 4 function calculator, with a panel that has more advanced functions when you need them. It includes history, real time graphing, base conversion, and more. It also comes with a lockscreen widget, a floating calculator, and a wear app so you can use whichever is most convenient.
+Calculator is a simple calculator, with a panel that has more functions when you need them. Floating calculator, and clothes app so you can use whichever is most comfortable.
 
 The goal is a simple and uncluttered calculator.
-
-Because Calculator is a full replacement for your stock calculator, we recommend you disable the one that came with your phone. If you long press your original calculator.
 
 And can install applications in APK files (Android Smartphones only):
 https://github.com/hafizelfiawedoputra/CalculatorFiz/blob/main/app/release/app-release.apk
