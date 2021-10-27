@@ -10,4 +10,4 @@ And can install applications in APK files (Android Smartphones only):
 https://github.com/hafizelfiawedoputra/CalculatorFiz/blob/main/app/release/app-release.apk
 
 Here are the results of the application:
-![Image ofCalculator Fiz](https://drive.google.com/file/d/1InmvwoYQCH0JwdBoEKcRrP9yCVrHdwq-/view?usp=sharing)
+![Image of Calculator Fiz](https://github.com/hafizelfiawedoputra/CalculatorFiz/blob/main/Screen%20Shot%202021-10-27%20at%2018.40.24.png)
